@@ -139,8 +139,8 @@ body{
 }
 
 .Project {
-    padding-left: 15em;
-    padding-right: 15em;
+    padding-left: 20em;
+    padding-right: 20em;
     overflow: hidden;
 }
 
@@ -178,6 +178,11 @@ body{
 .grid-item-right {
     margin-left: auto;
 }
+
+.grid-item-right img{
+  float: right;
+}
+
 
 #name {
         font-weight: bold;
