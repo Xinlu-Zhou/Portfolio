@@ -7,22 +7,30 @@
     <link rel="shortcut icon" href="Images/Logo.png"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik&display=swap">
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/3.2.0/css/font-awesome.css">
-
     </head>
 
     <body>
-    <!-- main_page    -->
-    <div id="nav-bar">
-        <div class="home-nav">
-            <ul>
-                <li><a href="about.html">About</a></li>
-                <li><a href="#home_project">Project</a></li>
-                <li><a class="logo" href="Index.html"><img src="Images/Logo.png"></a></li>
-                <li><a href="https://drive.google.com/file/d/1H4pcd4EBEQeObUK0flV6CcjX58qdCNI0/view?usp=sharing">Resume</a></li>
-                <li><a href="#home_contact">Contact</a></li>
-            </ul>
+    
+    <nav>
+        <div class="logo">
+            <a href="Index.html"><img src="Images/Logo.png"></a>
         </div>
-    </div> 
+
+        <ul class="nav-links">
+            <li><a href="about.html">About</a></li>
+            <li><a href="#home_project">Project</a></li>
+            <li><a href="https://drive.google.com/file/d/1H4pcd4EBEQeObUK0flV6CcjX58qdCNI0/view?usp=sharing">Resume</a></li>
+            <li><a href="#home_contact">Contact</a></li>
+        </ul>
+
+        <div id="burger" class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        
+    </nav>
+
     <div id="particles-js">
             <div class="homepage_text">
             <h1>Hello there !</h1>
@@ -31,10 +39,8 @@
             <p>a <span class="blue">Product Designer</span>  and <span class="red">Front-End Developer</span> from UC San Diego with great interests in the intersections of 
                 Biology and Human-centered design. Passionate about bringing compelling ideas to life and solving the complex problems facing our world.</p>
             </div>
-            
             </div>
-            <p><a href="#home_project"><i class="arrow down"></i></a>/p>
-        
+            <p><a href="#home_project"><i class="arrow down"></i></a></p>
     </div>
 
 
@@ -64,7 +70,7 @@
                             students to exchange thier idles efficiently. </p>
                     </div>
                 <div class="grid-item-right">
-                    <a href="idlego.html"><img src="Images/idlego.jpg" width="80%"></a>
+                    <a href="idlego.html"><img src="Images/idlego.jpg" width="80%" height="auto"></a>
                 </div>
             </div>
         </section> 
@@ -168,6 +174,7 @@
     </body>
     <script type="text/javascript" src="particles.js"></script>
     <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="navigation.js"></script>
 </html>
 
 
