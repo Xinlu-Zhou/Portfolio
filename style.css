@@ -13,7 +13,6 @@ nav {
   font-family: "Raleway", sans-serif;
   height: 4em;
   align-items: center;
-  background-color: #393e46;
   position: absolute;
   width: 100%;
 
@@ -66,7 +65,7 @@ nav {
 }
 
 
-@media screen and (max-width:768px){
+@media screen and (max-width:320px){
   body{
     overflow-x: hidden;
   }
@@ -404,6 +403,7 @@ nav {
   width: 90%;
   max-width: 900px;
   margin: 0 auto;
+  padding-top: 6em;
 }
 
 .introduction h1 {
@@ -417,6 +417,7 @@ nav {
   border-right: 2px solid#F8B500;
   width: 27.5ch;
   animation: type 2.5s steps(30);
+  
 }
 
 @keyframes type {
