@@ -7,54 +7,6 @@ body {
     width: 100%;
 }
 
-/* #nav-bar {
-    overflow: hidden;
-    top: 0; 
-    width: 100%; 
-  }
-
-.logo{
-    height: inherit;
-    float: left;
-}
-
-.logo a{
-    line-height: 60px;
-    text-decoration: none;
-}
-
-.home-nav{
-    border-width:1px 0;
-    list-style:none;
-    margin:0;
-    padding:0;
-    text-align:center;
-}
-.home-nav li{
-    display:inline;
-    padding: 2em;
-
-}
-.home-nav a{
-    display:inline-block;
-    padding:1.4em;
-    
-    color: white;
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    text-decoration:none;
-}
-
-.logo img {
-    display: block;
-    width:40px;
-    height: 40px;
-    position: absolute;
-    left: 50%;
-    top: 15px;
-    text-align: center;
-} */
-
 .banner-container {
     /* background-image: url(banner.png); */
     height: 500px;
