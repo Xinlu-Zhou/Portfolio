@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: white;
+  background-color: #272727;
 }
 
 nav {
@@ -129,7 +129,7 @@ nav {
 
 
 
-
+/* 
 .homepage_text {
   width: 100%;
   position: absolute;
@@ -186,10 +186,97 @@ nav {
   left: 0;
   width: 100%;
   height: 100vh; 
-  /* height: 100%; */
   z-index: -2;
   opacity: 1;
+} */
+
+.homepage_text {
+	width: 100%;
+	position: absolute;
+	top: 30%;
+  text-align: left;
+  color: #F6D55C;
+  font-family: 'Raleway', sans-serif;
+  margin-left: 10%;
 }
+
+.homepage_text h2 {
+    font-size: 24px;
+    color: #F8B500;
+    margin-top: 20px;
+    font-weight: 500;
+
+}
+
+.homepage_text h1 {
+    font-size:48px;
+    font-weight: 600;
+    color: white;
+    font-family:'proxima nova';  
+}
+
+#title_subtext {
+    color: white;
+    font-size: 1.4em;
+    margin-right: 20%;
+    /* margin-left: 25%; */
+    margin-top: 20px;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+.red {
+    color: #ef4339;
+    font-weight: 800;
+}
+
+.blue {
+    color: #3fc5f0;
+    font-weight: 800;
+}
+ 
+/* #particles-js {
+    height: 100vh;
+} */
+
+.row{
+  height: 100vh;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.homepage_text {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.homepage_img {
+  float: right;
+  width: 50%;
+  padding: 10px;
+  padding-top: 5%;
+}
+
+@media screen and (max-width: 600px) {
+  .homepage_text {
+    width: 100%;
+    position: inherit;
+  }
+  .homepage_img {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
 
 .arrow {
   border: solid white;
@@ -217,7 +304,7 @@ nav {
 #home_project {
   height: 100%;
   width: 100%;
-  background-color: #393e46;
+  background-color: #272727;
   position: relative;
 }
 
@@ -294,7 +381,7 @@ nav {
 #home_contact {
   height: 100%;
   width: 100%;
-  background-color: #393e46;
+  background-color: #272727;
   position: relative;
   overflow: hidden;
 }
